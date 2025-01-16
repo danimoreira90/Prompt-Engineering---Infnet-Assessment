@@ -1,0 +1,104 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="Page-1" id="q-70ibSQqaYzfvwIaVi4">
+    <mxGraphModel dx="1195" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lV1kdY1CtRMClUweRres-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;.env&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lV1kdY1CtRMClUweRres-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lV1kdY1CtRMClUweRres-2" target="lV1kdY1CtRMClUweRres-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lV1kdY1CtRMClUweRres-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;API da câmara:&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Acessa dados públicos via uma URL base, usando uma chave de autenticação especificada no arquivo &lt;/span&gt;&lt;code style=&quot;background-color: initial;&quot;&gt;.env&lt;/code&gt;.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="230" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lV1kdY1CtRMClUweRres-4" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Processamento&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;de dados:&lt;/h1&gt;&lt;p&gt;Aplica operações de sumarização de textos, análise de sentimentos, marcação de palavras-chave e vetorização dos dados coletados.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="150" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="lV1kdY1CtRMClUweRres-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="lV1kdY1CtRMClUweRres-5" target="lV1kdY1CtRMClUweRres-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lV1kdY1CtRMClUweRres-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lV1kdY1CtRMClUweRres-5" target="lV1kdY1CtRMClUweRres-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lV1kdY1CtRMClUweRres-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lV1kdY1CtRMClUweRres-5" target="lV1kdY1CtRMClUweRres-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lV1kdY1CtRMClUweRres-5" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Chave de API GEMINI&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="40" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lV1kdY1CtRMClUweRres-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lV1kdY1CtRMClUweRres-8" target="lV1kdY1CtRMClUweRres-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lV1kdY1CtRMClUweRres-8" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;dataprep.py&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="290" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lV1kdY1CtRMClUweRres-10" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;&lt;b&gt;API&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="360" y="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lV1kdY1CtRMClUweRres-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.139;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lV1kdY1CtRMClUweRres-8" target="lV1kdY1CtRMClUweRres-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lV1kdY1CtRMClUweRres-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lV1kdY1CtRMClUweRres-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lV1kdY1CtRMClUweRres-21" value="Armazenamento de dados" style="swimlane;startSize=20;horizontal=1;childLayout=flowLayout;flowOrientation=north;resizable=0;interRankCellSpacing=50;containerType=tree;fontSize=12;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="90" y="390" width="620" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lV1kdY1CtRMClUweRres-22" value="Parquet" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="lV1kdY1CtRMClUweRres-21">
+          <mxGeometry x="20" y="40" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lV1kdY1CtRMClUweRres-23" value="YAML" style="whiteSpace=wrap;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" vertex="1" parent="lV1kdY1CtRMClUweRres-21">
+          <mxGeometry x="180" y="40" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lV1kdY1CtRMClUweRres-25" value="JSON" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="lV1kdY1CtRMClUweRres-21">
+          <mxGeometry x="340" y="40" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lV1kdY1CtRMClUweRres-27" value="FAISS" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="lV1kdY1CtRMClUweRres-21">
+          <mxGeometry x="500" y="40" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lV1kdY1CtRMClUweRres-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.926;entryY=-0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lV1kdY1CtRMClUweRres-4" target="lV1kdY1CtRMClUweRres-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lV1kdY1CtRMClUweRres-38" value="&lt;h3&gt;&lt;strong style=&quot;background-color: initial; font-size: 12px;&quot;&gt;Funcionamento:&lt;/strong&gt;&lt;/h3&gt;&lt;p style=&quot;text-align: left;&quot;&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;Parquet, JSON, FAISS, YAML&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;: Armazena os dados processados em diferentes formatos. Parquet para dados tabulares, JSON para sumários, FAISS para índices de busca vetorial, e YAML para configurações.&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="500" width="500" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lV1kdY1CtRMClUweRres-39" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;dashboard.py&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="50" y="750" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lV1kdY1CtRMClUweRres-63" value="&lt;b&gt;Propriedades&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="820" width="170" height="120" as="geometry">
+            <mxRectangle x="40" y="720" width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lV1kdY1CtRMClUweRres-64" value="- Análise de sentimentos" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="lV1kdY1CtRMClUweRres-63">
+          <mxGeometry y="26" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lV1kdY1CtRMClUweRres-65" value="- Insights visuais" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="lV1kdY1CtRMClUweRres-63">
+          <mxGeometry y="52" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lV1kdY1CtRMClUweRres-66" value="&amp;nbsp;- Sumários" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="lV1kdY1CtRMClUweRres-63">
+          <mxGeometry y="78" width="170" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="lV1kdY1CtRMClUweRres-67" value="" style="shape=mxgraph.signs.healthcare.brain;html=1;pointerEvents=1;fillColor=#f8cecc;strokeColor=#b85450;verticalLabelPosition=bottom;verticalAlign=top;align=center;opacity=70;gradientColor=#ea6b66;" vertex="1" parent="1">
+          <mxGeometry x="420" y="630" width="230" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="lV1kdY1CtRMClUweRres-68" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/Python_logo-128.png" vertex="1" parent="1">
+          <mxGeometry x="375" y="260" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="lV1kdY1CtRMClUweRres-71" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Geração de respostas e sumarização:&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;Utiliza modelos pré-treinados para processar e gerar textos baseados nas entradas e interações dos usuários.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="850" width="250" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="lV1kdY1CtRMClUweRres-72" value="&lt;font style=&quot;font-size: 33px;&quot;&gt;&lt;b style=&quot;&quot;&gt;GEMINI&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=8;" vertex="1" parent="1">
+          <mxGeometry x="467.5" y="690" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lV1kdY1CtRMClUweRres-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lV1kdY1CtRMClUweRres-65" target="lV1kdY1CtRMClUweRres-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
