@@ -290,15 +290,17 @@ def load_insights():
         with open(r"D:\Pastas\Infnet\Infnet - 2024.2\Engenharia de Prompts\AT\data\insights_distribuicao_deputados.json", 'r', encoding='iso-8859-1') as f:
             insights_data = json.load(f)
             insights_content = insights_data['insights']
-        
-        insights_cleaned = re.sub(r"^.*?\n\n", "", insights_content, flags=re.S)
-        insights_list = re.split(r"\n\*\*\d+\.", insights_cleaned)
-        
-        insights_list = [insight.strip() for insight in insights_list if insight.strip()]
+
+        insights_cleaned = re.sub(r"^##.*?\n\n", "", insights_content, flags=re.S)
+
+        insights_list = re.split(r"\n\*\*(\d+)\.\s*", insights_cleaned)[1:]
         
         st.subheader("Insights sobre a Distribuição de Deputados")
-        for i, insight in enumerate(insights_list, 1): 
-            st.markdown(f"**Insight {i}:** {insight}")
+
+        for i in range(0, len(insights_list), 2):
+            insight_number = insights_list[i]
+            insight_text = insights_list[i+1].strip()
+            st.markdown(f"Insight {insight_number}: {insight_text}")
             st.markdown("---")
 
     except FileNotFoundError:
@@ -310,7 +312,7 @@ def load_insights():
     except Exception as e:
         st.error(f"Um erro ocorreu: {e}")
 
-
+# Renderizando as páginas
 if page == 'Overview':
     overview_page()
 elif page == 'Despesas':
