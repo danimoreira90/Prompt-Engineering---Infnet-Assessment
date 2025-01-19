@@ -74,7 +74,7 @@ Contribuições são bem-vindas e incentivadas. Se você deseja melhorar o códi
 
 ## Contato
 
-Dúvidas ou sugestões podem ser encaminhadas através do [tracker de issues](https://github.com/danimoreira90/Prompt-Engineering---Infnet-Assessment/issues) do GitHub ou pelo contato direto via e-mail disponível no perfil do repositório.
+Dúvidas ou sugestões podem ser encaminhadas através do (https://github.com/danimoreira90/Prompt-Engineering---Infnet-Assessment/issues) do GitHub ou pelo contato direto via e-mail disponível no perfil do repositório.
 ```
 
 
